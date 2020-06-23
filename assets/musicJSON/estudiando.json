@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "playlist":"estudiar",
+        "artista":"Mozart",
+        "nombre" : "Lacrimosa",
+        "url":"assets/music/estudiar/Mozart-Lacrimosa.mp3",
+        "duracion":200
+    },
+    {
+        "id":2,
+        "playlist":"estudiar",
+        "artista":"Mozart",
+        "nombre" : "Symphony-40",
+        "url":"assets/music/estudiar/Mozart-Symphony-40.mp3",
+        "duracion":448
+    },
+    {
+        "id":3,
+        "playlist":"estudiar",
+        "artista":"Mozart",
+        "nombre" : "RondoAllaTurca",
+        "url":"assets/music/estudiar/Mozart-RondoAllaTurca.mp3",
+        "duracion":211
+    }
+
+
+]

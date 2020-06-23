@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "playlist":"deporte",
+        "artista":"Queen",
+        "nombre" : "Another One Bites The Dust",
+        "url":"assets/music/deporte/1-another-one-bites-the-dust.mp3",
+        "duracion":215
+    },
+    {
+        "id":1,
+        "playlist":"deporte",
+        "artista":"--------",
+        "nombre" : "Entrenamiento de Rocky",
+        "url":"assets/music/deporte/2-entrenamiento-rocki.mp3",
+        "duracion":158
+    }
+
+]

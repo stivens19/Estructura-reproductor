@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMWMusic!|PlayList</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+<body>
+    <div class="app">
+        <aside class="menu-aside">
+            <div class="logo">
+                <span class="i-logo i-logo2"><i class="fab fa-spotify s-logo"></i> AMWMusic!</span>
+            </div>
+            <ul class="playlists" id="menuMusic">
+                <li class="playlist"><a href="#" class="play playEstudiar" id="cargarEstudiar">Estudiar</a></li>
+                <li class="playlist" ><a href="#" class="play playRock">Rock</a></li>
+                <li class="playlist"><a href="#" class="play playDeporte">Deporte</a></li>
+            </ul>
+        </aside>
+        <div class="album" id="album">
+            <div class="user">
+                <a href="#" class="close" id="close"><i class="far fa-times-circle"></i></a>
+                <span class="user-desc">  <i class="fas fa-user "></i>Autenticado </a></span>      
+            </div>
+
+            <div class="animate">      
+            </div>
+            <div class="album-description">
+                    <div class="album-img">
+                        <img id="imgAlbum" src="assets/img/f-princi.jpg" width="250" height="150">
+                    </div>
+                    <div class="album-text">
+                        <div class="title">
+                            <span>Playlist:</span>
+                            <h2 id="titlePlaylist">Seleccione su playlist</h2>
+                        </div>
+                        <div class="description">
+                            <p id="playDescription">Reproduzca la playlist de su agrado !!!</p>
+                        </div>
+                        <div class="acciones">
+                            <input type="file" id="files" name="files[]" multiple />
+                            
+                            <a href="#" class="btn reaccion-inactiva" id="reaccion"><i class="fas fa-heart"></i></a>
+                        </div>
+                        </div>
+                </div>
+            
+
+            <div class="album-list-music">
+                <ul class="list-music" id="lista-music">
+                    <!--
+                    <li class="music">
+                        <a href="#" class="btn play-music"><i class="far fa-play-circle"></i></a>
+                        <h3>Nombre de artista</h3> 
+                        <h3 class="name" id="name">Nombre de musica</h3> 
+                        <h3 class="time">1.44 s</h3>
+                    </li>
+                    --> 
+            
+                </ul>
+            </div>
+        </div>
+        </div>
+
+        <div class="reproducir">
+            <div class="controles" id="controles">
+               <!-- <a href="#" class="btn control atras"><i class="fas fa-backward"></i></a>
+                <a href="#" class="btn control play-musica"><i class="far fa-play-circle"></i></a>
+                <a href="#" class="btn control siguiente"><i class="fas fa-forward"></i></a>
+                <a href="#" class="btn control pausa"><i class="far fa-pause-circle"></i></a>
+                <div class="volumen">
+                    <a href="#" class="subir"></a>
+                    <a href="#" class="bajar"></a>
+                </div>-->
+
+            </div>
+        </div>
+
+        <script src="assets/js/app.js"></script>
+</body>
+</html>
